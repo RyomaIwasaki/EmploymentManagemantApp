@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "就活管理アプリ（生徒）", "就活管理アプリ（生徒）\就活管理アプリ（生徒）.csproj", "{9DD9C06B-0A2F-4489-A441-48F874E6F4F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DD9C06B-0A2F-4489-A441-48F874E6F4F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DD9C06B-0A2F-4489-A441-48F874E6F4F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DD9C06B-0A2F-4489-A441-48F874E6F4F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DD9C06B-0A2F-4489-A441-48F874E6F4F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C84B628-89A8-4A0D-ADBE-887A1ED2C502}
+	EndGlobalSection
+EndGlobal

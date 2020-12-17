@@ -1,0 +1,25 @@
+﻿<Window x:Class="就活管理アプリ_生徒_.Main"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:就活管理アプリ_生徒_"
+        mc:Ignorable="d"
+        Title="Main" Height="450" Width="800">
+    <Grid>
+        <Button Content="新規追加" FontSize="20" HorizontalAlignment="Left" Height="55" Margin="670,20,0,0" VerticalAlignment="Top" Width="100"/>
+        <TextBlock x:Name="studentNum" HorizontalAlignment="Left" Margin="25,20,0,0" TextWrapping="Wrap" Text="学籍番号" FontSize="15" VerticalAlignment="Top" Height="20" Width="95"/>
+        <TextBlock x:Name="studentName" HorizontalAlignment="Left" Margin="170,20,0,0" TextWrapping="Wrap" Text="名前" FontSize="15" VerticalAlignment="Top" Height="20" Width="95"/>
+        <ComboBox HorizontalAlignment="Left" Height="35" Margin="25,60,0,0" VerticalAlignment="Top" Width="125"/>
+        <Button Content="検索" FontSize="15" HorizontalAlignment="Left" Height="35" Margin="200,60,0,0" VerticalAlignment="Top" Width="100"/>
+        <TextBox HorizontalAlignment="Left" Height="35" Margin="335,60,0,0" TextWrapping="Wrap" FontSize="15" VerticalAlignment="Top" Width="145"/>
+        <ComboBox HorizontalAlignment="Left" Height="35" Margin="200,110,0,0" VerticalAlignment="Top" Width="145" FontStyle="Italic" Text="活動場所"/>
+        <RadioButton x:Name="Informationsession" Content="説明会" FontSize="15" HorizontalAlignment="Left" Margin="200,150,0,0" VerticalAlignment="Top" Background="#FFFBF9F9" Foreground="Black"/>
+        <RadioButton x:Name="Guidance" Content="ガイダンス" FontSize="15" HorizontalAlignment="Left" Margin="285,150,0,0" VerticalAlignment="Top" Background="#FFFBF9F9" Foreground="Black"/>
+        <RadioButton x:Name="PaperTest" Content="筆記試験" FontSize="15" HorizontalAlignment="Left" Margin="380,150,0,0" VerticalAlignment="Top" Background="#FFFBF9F9" Foreground="Black" Checked="Informationsession_Copy1_Checked"/>
+        <RadioButton x:Name="InterviewTest" Content="面接試験" FontSize="15" HorizontalAlignment="Left" Margin="490,150,0,0" VerticalAlignment="Top" Background="#FFFBF9F9" Foreground="Black"/>
+        <RadioButton x:Name="Informationsession_Copy3" Content="内定後" FontSize="15" HorizontalAlignment="Left" Margin="605,150,0,0" VerticalAlignment="Top" Background="#FFFBF9F9" Foreground="Black"/>
+
+       
+    </Grid>
+</Window>
